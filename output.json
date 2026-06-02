@@ -1,0 +1,548 @@
+{
+  "videoMetadata": {
+    "filename": "Sample Installation Video.mp4",
+    "duration_seconds": 8.0,
+    "total_frames": 192,
+    "fps": 24.0,
+    "resolution": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "objectsDetected": [
+    {
+      "object_id": 1,
+      "track_id": 2,
+      "class": "spectrophotometer",
+      "motion_history": [
+        {
+          "frame_range": [
+            0,
+            59
+          ],
+          "state": "moving"
+        },
+        {
+          "frame_range": [
+            60,
+            89
+          ],
+          "state": "stationary"
+        },
+        {
+          "frame_range": [
+            90,
+            186
+          ],
+          "state": "moving"
+        }
+      ],
+      "interactions": [
+        {
+          "interacted_by_person": 1,
+          "frame_start": 18,
+          "frame_end": 24
+        },
+        {
+          "interacted_by_person": 1,
+          "frame_start": 36,
+          "frame_end": 66
+        },
+        {
+          "interacted_by_person": 1,
+          "frame_start": 108,
+          "frame_end": 120
+        },
+        {
+          "interacted_by_person": 1,
+          "frame_start": 132,
+          "frame_end": 132
+        },
+        {
+          "interacted_by_person": 19,
+          "frame_start": 18,
+          "frame_end": 18
+        },
+        {
+          "interacted_by_person": 19,
+          "frame_start": 72,
+          "frame_end": 102
+        }
+      ]
+    },
+    {
+      "object_id": 2,
+      "track_id": 3,
+      "class": "microscope",
+      "motion_history": [
+        {
+          "frame_range": [
+            0,
+            179
+          ],
+          "state": "moving"
+        },
+        {
+          "frame_range": [
+            180,
+            186
+          ],
+          "state": "stationary"
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "object_id": 3,
+      "track_id": 4,
+      "class": "ethernet cable",
+      "motion_history": [
+        {
+          "frame_range": [
+            0,
+            179
+          ],
+          "state": "moving"
+        },
+        {
+          "frame_range": [
+            180,
+            186
+          ],
+          "state": "stationary"
+        }
+      ],
+      "interactions": [
+        {
+          "interacted_by_person": 1,
+          "frame_start": 42,
+          "frame_end": 42
+        },
+        {
+          "interacted_by_person": 1,
+          "frame_start": 54,
+          "frame_end": 66
+        },
+        {
+          "interacted_by_person": 1,
+          "frame_start": 108,
+          "frame_end": 108
+        },
+        {
+          "interacted_by_person": 1,
+          "frame_start": 132,
+          "frame_end": 132
+        }
+      ]
+    },
+    {
+      "object_id": 4,
+      "track_id": 6,
+      "class": "spectrophotometer",
+      "motion_history": [
+        {
+          "frame_range": [
+            0,
+            186
+          ],
+          "state": "moving"
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "object_id": 5,
+      "track_id": 10,
+      "class": "test tubes",
+      "motion_history": [
+        {
+          "frame_range": [
+            0,
+            174
+          ],
+          "state": "moving"
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "object_id": 6,
+      "track_id": 14,
+      "class": "test tubes",
+      "motion_history": [
+        {
+          "frame_range": [
+            6,
+            185
+          ],
+          "state": "moving"
+        },
+        {
+          "frame_range": [
+            186,
+            186
+          ],
+          "state": "stationary"
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "object_id": 7,
+      "track_id": 17,
+      "class": "test tubes",
+      "motion_history": [
+        {
+          "frame_range": [
+            18,
+            77
+          ],
+          "state": "moving"
+        },
+        {
+          "frame_range": [
+            78,
+            107
+          ],
+          "state": "stationary"
+        },
+        {
+          "frame_range": [
+            108,
+            167
+          ],
+          "state": "moving"
+        },
+        {
+          "frame_range": [
+            168,
+            168
+          ],
+          "state": "stationary"
+        }
+      ],
+      "interactions": []
+    }
+  ],
+  "actionNarrative": {
+    "scene_summary": "Video duration: 8.0s (192 frames at 24.0fps). 3 person(s) detected. 7 object(s) tracked: spectrophotometer, microscope, ethernet cable, spectrophotometer, test tubes, test tubes, test tubes. Objects that moved: spectrophotometer, microscope, ethernet cable, spectrophotometer, test tubes, test tubes, test tubes. Objects interacted with: spectrophotometer, ethernet cable. Person 1 interacted with spectrophotometer from 0.75s (frame 18) to 1.00s (frame 24) (0.25s). Person 19 interacted with spectrophotometer from 0.75s (frame 18) to 0.75s (frame 18) (0.00s). Person 1 interacted with spectrophotometer from 1.50s (frame 36) to 2.75s (frame 66) (1.25s). Person 1 interacted with ethernet cable from 1.75s (frame 42) to 1.75s (frame 42) (0.00s). Person 1 interacted with ethernet cable from 2.25s (frame 54) to 2.75s (frame 66) (0.50s). Person 19 interacted with spectrophotometer from 3.00s (frame 72) to 4.25s (frame 102) (1.25s). Person 1 interacted with spectrophotometer from 4.50s (frame 108) to 5.00s (frame 120) (0.50s). Person 1 interacted with ethernet cable from 4.50s (frame 108) to 4.50s (frame 108) (0.00s). Person 1 interacted with spectrophotometer from 5.50s (frame 132) to 5.50s (frame 132) (0.00s). Person 1 interacted with ethernet cable from 5.50s (frame 132) to 5.50s (frame 132) (0.00s). spectrophotometer was moving from 0.00s (frame 0) to 2.46s (frame 59) (2.46s). microscope was moving from 0.00s (frame 0) to 7.46s (frame 179) (7.46s). ethernet cable was moving from 0.00s (frame 0) to 7.46s (frame 179) (7.46s). spectrophotometer was moving from 0.00s (frame 0) to 7.75s (frame 186) (7.75s). test tubes was moving from 0.00s (frame 0) to 7.25s (frame 174) (7.25s). test tubes was moving from 0.25s (frame 6) to 7.71s (frame 185) (7.46s). test tubes was moving from 0.75s (frame 18) to 3.21s (frame 77) (2.46s). spectrophotometer was moving from 3.75s (frame 90) to 7.75s (frame 186) (4.00s). test tubes was moving from 4.50s (frame 108) to 6.96s (frame 167) (2.46s).",
+    "person_summaries": [
+      {
+        "person_id": 1,
+        "first_seen_time": "0.00s (frame 0)",
+        "last_seen_time": "7.75s (frame 186)",
+        "objects_interacted_with": [
+          "spectrophotometer",
+          "ethernet cable"
+        ],
+        "total_interactions": 8
+      },
+      {
+        "person_id": 19,
+        "first_seen_time": "0.75s (frame 18)",
+        "last_seen_time": "4.50s (frame 108)",
+        "objects_interacted_with": [
+          "spectrophotometer"
+        ],
+        "total_interactions": 2
+      },
+      {
+        "person_id": 30,
+        "first_seen_time": "4.00s (frame 96)",
+        "last_seen_time": "4.50s (frame 108)",
+        "objects_interacted_with": [],
+        "total_interactions": 0
+      }
+    ],
+    "object_summaries": [
+      {
+        "object_id": 1,
+        "class": "spectrophotometer",
+        "first_seen": "0.00s (frame 0)",
+        "last_seen": "7.75s (frame 186)",
+        "was_moved": true,
+        "was_interacted_with": true,
+        "motion_state_changes": 3,
+        "interaction_count": 6
+      },
+      {
+        "object_id": 2,
+        "class": "microscope",
+        "first_seen": "0.00s (frame 0)",
+        "last_seen": "7.75s (frame 186)",
+        "was_moved": true,
+        "was_interacted_with": false,
+        "motion_state_changes": 2,
+        "interaction_count": 0
+      },
+      {
+        "object_id": 3,
+        "class": "ethernet cable",
+        "first_seen": "0.00s (frame 0)",
+        "last_seen": "7.75s (frame 186)",
+        "was_moved": true,
+        "was_interacted_with": true,
+        "motion_state_changes": 2,
+        "interaction_count": 4
+      },
+      {
+        "object_id": 4,
+        "class": "spectrophotometer",
+        "first_seen": "0.00s (frame 0)",
+        "last_seen": "7.75s (frame 186)",
+        "was_moved": true,
+        "was_interacted_with": false,
+        "motion_state_changes": 1,
+        "interaction_count": 0
+      },
+      {
+        "object_id": 5,
+        "class": "test tubes",
+        "first_seen": "0.00s (frame 0)",
+        "last_seen": "7.25s (frame 174)",
+        "was_moved": true,
+        "was_interacted_with": false,
+        "motion_state_changes": 1,
+        "interaction_count": 0
+      },
+      {
+        "object_id": 6,
+        "class": "test tubes",
+        "first_seen": "0.25s (frame 6)",
+        "last_seen": "7.75s (frame 186)",
+        "was_moved": true,
+        "was_interacted_with": false,
+        "motion_state_changes": 2,
+        "interaction_count": 0
+      },
+      {
+        "object_id": 7,
+        "class": "test tubes",
+        "first_seen": "0.75s (frame 18)",
+        "last_seen": "7.00s (frame 168)",
+        "was_moved": true,
+        "was_interacted_with": false,
+        "motion_state_changes": 4,
+        "interaction_count": 0
+      }
+    ],
+    "motion_timeline": [
+      {
+        "object": "spectrophotometer",
+        "object_id": 1,
+        "event": "moving",
+        "from_frame": 0,
+        "to_frame": 59,
+        "start_time": "0.00s (frame 0)",
+        "end_time": "2.46s (frame 59)",
+        "duration": "2.46s"
+      },
+      {
+        "object": "microscope",
+        "object_id": 2,
+        "event": "moving",
+        "from_frame": 0,
+        "to_frame": 179,
+        "start_time": "0.00s (frame 0)",
+        "end_time": "7.46s (frame 179)",
+        "duration": "7.46s"
+      },
+      {
+        "object": "ethernet cable",
+        "object_id": 3,
+        "event": "moving",
+        "from_frame": 0,
+        "to_frame": 179,
+        "start_time": "0.00s (frame 0)",
+        "end_time": "7.46s (frame 179)",
+        "duration": "7.46s"
+      },
+      {
+        "object": "spectrophotometer",
+        "object_id": 4,
+        "event": "moving",
+        "from_frame": 0,
+        "to_frame": 186,
+        "start_time": "0.00s (frame 0)",
+        "end_time": "7.75s (frame 186)",
+        "duration": "7.75s"
+      },
+      {
+        "object": "test tubes",
+        "object_id": 5,
+        "event": "moving",
+        "from_frame": 0,
+        "to_frame": 174,
+        "start_time": "0.00s (frame 0)",
+        "end_time": "7.25s (frame 174)",
+        "duration": "7.25s"
+      },
+      {
+        "object": "test tubes",
+        "object_id": 6,
+        "event": "moving",
+        "from_frame": 6,
+        "to_frame": 185,
+        "start_time": "0.25s (frame 6)",
+        "end_time": "7.71s (frame 185)",
+        "duration": "7.46s"
+      },
+      {
+        "object": "test tubes",
+        "object_id": 7,
+        "event": "moving",
+        "from_frame": 18,
+        "to_frame": 77,
+        "start_time": "0.75s (frame 18)",
+        "end_time": "3.21s (frame 77)",
+        "duration": "2.46s"
+      },
+      {
+        "object": "spectrophotometer",
+        "object_id": 1,
+        "event": "moving",
+        "from_frame": 90,
+        "to_frame": 186,
+        "start_time": "3.75s (frame 90)",
+        "end_time": "7.75s (frame 186)",
+        "duration": "4.00s"
+      },
+      {
+        "object": "test tubes",
+        "object_id": 7,
+        "event": "moving",
+        "from_frame": 108,
+        "to_frame": 167,
+        "start_time": "4.50s (frame 108)",
+        "end_time": "6.96s (frame 167)",
+        "duration": "2.46s"
+      }
+    ],
+    "interaction_timeline": [
+      {
+        "person_id": 1,
+        "object": "spectrophotometer",
+        "object_id": 1,
+        "from_frame": 18,
+        "to_frame": 24,
+        "start_time": "0.75s (frame 18)",
+        "end_time": "1.00s (frame 24)",
+        "duration": "0.25s"
+      },
+      {
+        "person_id": 19,
+        "object": "spectrophotometer",
+        "object_id": 1,
+        "from_frame": 18,
+        "to_frame": 18,
+        "start_time": "0.75s (frame 18)",
+        "end_time": "0.75s (frame 18)",
+        "duration": "0.00s"
+      },
+      {
+        "person_id": 1,
+        "object": "spectrophotometer",
+        "object_id": 1,
+        "from_frame": 36,
+        "to_frame": 66,
+        "start_time": "1.50s (frame 36)",
+        "end_time": "2.75s (frame 66)",
+        "duration": "1.25s"
+      },
+      {
+        "person_id": 1,
+        "object": "ethernet cable",
+        "object_id": 3,
+        "from_frame": 42,
+        "to_frame": 42,
+        "start_time": "1.75s (frame 42)",
+        "end_time": "1.75s (frame 42)",
+        "duration": "0.00s"
+      },
+      {
+        "person_id": 1,
+        "object": "ethernet cable",
+        "object_id": 3,
+        "from_frame": 54,
+        "to_frame": 66,
+        "start_time": "2.25s (frame 54)",
+        "end_time": "2.75s (frame 66)",
+        "duration": "0.50s"
+      },
+      {
+        "person_id": 19,
+        "object": "spectrophotometer",
+        "object_id": 1,
+        "from_frame": 72,
+        "to_frame": 102,
+        "start_time": "3.00s (frame 72)",
+        "end_time": "4.25s (frame 102)",
+        "duration": "1.25s"
+      },
+      {
+        "person_id": 1,
+        "object": "spectrophotometer",
+        "object_id": 1,
+        "from_frame": 108,
+        "to_frame": 120,
+        "start_time": "4.50s (frame 108)",
+        "end_time": "5.00s (frame 120)",
+        "duration": "0.50s"
+      },
+      {
+        "person_id": 1,
+        "object": "ethernet cable",
+        "object_id": 3,
+        "from_frame": 108,
+        "to_frame": 108,
+        "start_time": "4.50s (frame 108)",
+        "end_time": "4.50s (frame 108)",
+        "duration": "0.00s"
+      },
+      {
+        "person_id": 1,
+        "object": "spectrophotometer",
+        "object_id": 1,
+        "from_frame": 132,
+        "to_frame": 132,
+        "start_time": "5.50s (frame 132)",
+        "end_time": "5.50s (frame 132)",
+        "duration": "0.00s"
+      },
+      {
+        "person_id": 1,
+        "object": "ethernet cable",
+        "object_id": 3,
+        "from_frame": 132,
+        "to_frame": 132,
+        "start_time": "5.50s (frame 132)",
+        "end_time": "5.50s (frame 132)",
+        "duration": "0.00s"
+      }
+    ]
+  },
+  "sceneAnalysis": {
+    "domain": "medical_lab",
+    "description": "A scientist connects an ethernet cable to a spectrophotometer on a lab bench.",
+    "rationale": "High persistence and low motion threshold capture fine cable manipulation in a static lab environment.",
+    "config": {
+      "model": "google/owlv2-base-patch16",
+      "confidence": 0.15,
+      "detection_classes": [
+        "person",
+        "lab coat",
+        "ethernet cable",
+        "spectrophotometer",
+        "microscope",
+        "test tubes"
+      ],
+      "person_proxy_classes": [
+        "person",
+        "lab coat"
+      ],
+      "frame_sample_rate": 6,
+      "motion_threshold_px": 4.0,
+      "min_frame_persistence": 20
+    }
+  }
+}

@@ -1,0 +1,54 @@
+# Ignore everything
+*
+
+# Allow directories to be traversed
+!backend/
+!tests/
+
+# Backend folder
+!backend/**
+!backend/**/*.py
+
+# Tests folder
+!tests/**
+!tests/**/*.py
+
+# Exclude the sample video
+tests/Sample Installation Video.mp4
+
+# Include root files
+!run_analysis.py
+!output.json
+!README.md
+!requirements.txt
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# IDE files
+.vscode/
+
+# Test cache
+.pytest_cache/
+
+# Local history
+.history/
+
+# Uploads and generated data
+data/uploads/
+keyframes/
+
+# Large model files
+*.pt
+
+# Archives
+*.tar.gz
+
+# Keep git metadata files if needed
+!.gitignore
